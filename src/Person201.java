@@ -23,10 +23,10 @@ public class Person201 {
      * longitude = -79.0058
      */
     public Person201(){
-       this.myName = "Owen";
-       this.myLatitude = 035.93;
-       this.myLongitude = 079.01;
-       this.myPhrase = "woto";  
+        this.myName = "Owen";
+        this.myLatitude = 035.93;
+        this.myLongitude = 079.01;
+        this.myPhrase = "woto";
     }
 
     /**
@@ -117,8 +117,10 @@ public class Person201 {
      * @return distance from this person to other person
      */
     public double distanceFrom(Person201 other) {
-        // TODO replace with correct distance, call Person201Utilities.distance
-        return 100;
+        double Dist = Person201Utilities.distance(this.myLatitude, this.myLongitude, other.myLatitude, other.myLongitude);
+        return Dist;
     }
 }
+
+//public static double distance(double alat, double along, double blat, double blong) {
 

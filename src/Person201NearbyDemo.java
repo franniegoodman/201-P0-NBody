@@ -17,9 +17,11 @@ public class Person201NearbyDemo {
 
         double minDistance = 50.0;
 
-        Person201[] people = Person201Utilities.readFile(largeFileName);
+        //Person201[] people = Person201Utilities.readFile(largeFileName);
         //Person201[] people = Person201Utilities.readEncryptedFile(encryptedFileName,encryptKey);      
         //Person201[] people = Person201Utilities.readEncryptedURL(encryptedURL,encryptKey);
+        Person201[] people = Person201Utilities.readURL(largeURL);
+
 
         System.out.println("\nSearching for people near " + query.getName());
         System.out.println("distance\tperson");

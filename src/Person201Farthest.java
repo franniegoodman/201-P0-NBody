@@ -1,3 +1,8 @@
+/**
+ * reads a file containing Person201 objects and determines the two people furthest away from one another
+ * returns the names of those two people as well as the distance between them
+ * @author Frannie Goodman
+ */
 import java.util.*;
 
 public class Person201Farthest{
@@ -8,8 +13,6 @@ public class Person201Farthest{
             Person201 b = null;
             Person201[] people = Person201Utilities.readFile(file);
             Hashtable<Double,ArrayList<Person201>> myDict = new Hashtable<>();
-            //loop through each person in file
-            //find person farthest from that person 
             for (Person201 p : people){
                 double maxDist = 0.0;
                 Person201 farthestPerson = null;
@@ -33,11 +36,7 @@ public class Person201Farthest{
             ArrayList<Person201> farthestPeople = myDict.get(max);
             a = farthestPeople.get(0);
             b = farthestPeople.get(1);
-            
-            //add pair of names & distance to parallel ArrayLists? equivalent of dictionary?
-            //find max distance between &  corresponding names 
                 
-            
             System.out.printf("farthest distance is %3.2f between %s and %s\n",max,a.getName(),b.getName());
         }
 }

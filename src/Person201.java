@@ -6,6 +6,8 @@
  * comments.
  *
  */
+
+
 public class Person201 {
 
     private String myName;      // name of person
@@ -21,8 +23,10 @@ public class Person201 {
      * longitude = -79.0058
      */
     public Person201(){
-        // TODO create default constructor
-
+       this.myName = "Owen";
+       this.myLatitude = 035.93;
+       this.myLongitude = 079.01;
+       this.myPhrase = "woto";  
     }
 
     /**

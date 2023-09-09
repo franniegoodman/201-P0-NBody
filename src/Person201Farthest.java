@@ -23,8 +23,8 @@ public class Person201Farthest{
                         farthestPerson = x;
                     }
                 ArrayList<Person201> pair = new ArrayList<>();
-                pair.add(p);
                 pair.add(farthestPerson);
+                pair.add(p);
                 myDict.put(maxDist, pair);
                 }
             }

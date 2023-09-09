@@ -1,6 +1,6 @@
 /**
  * For use in Compsci 201, P0, Duke University
- * @author ola, Owen Astrachan
+ * @author ola, Owen Astrachan, Frannie Goodman
  * To be modified by students in 201, when you make
  * a modification, add yourself as an author in these
  * comments.
@@ -25,7 +25,7 @@ public class Person201 {
     public Person201(){
         this.myName = "Owen";
         this.myLatitude = 035.93;
-        this.myLongitude = 079.01;
+        this.myLongitude = -079.01;
         this.myPhrase = "woto";
     }
 

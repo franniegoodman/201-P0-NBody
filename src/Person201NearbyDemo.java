@@ -1,5 +1,5 @@
 /**
- * @author Owen Astrachan
+ * @author Owen Astrachan, Frannie Goodman
  * This versions new in Fall 2023
  * Reads a data file and finds all those people within a specified distance
  * of a specified person.

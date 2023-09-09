@@ -25,7 +25,7 @@ public class Person201 {
     public Person201(){
         this.myName = "Owen";
         this.myLatitude = 035.9312;
-        this.myLongitude = -079.01;
+        this.myLongitude = -79.0058;
         this.myPhrase = "woto";
     }
 
